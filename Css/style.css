@@ -1,0 +1,65 @@
+html{
+    background: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: rgb(210, 236, 210);
+    width: 80%;
+    margin: auto;
+    
+}
+main{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    background: pink;
+    width: 90%;
+    margin: auto;
+}
+section{
+    border: 2px solid black;
+    border-radius: grey;
+    background: lavender;
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+}
+#xp{
+    background: rgb(119, 119, 230);
+}
+section ul{
+    text-indent: 25px;
+    list-style-position: inside;
+}
+p{
+    margin: 20px  0;
+}
+h1{
+    text-transform: uppercase;
+}
+img{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+
+}
+h1,h2{
+    text-align: center;
+}
+@media screen and(max-width: 768px) {
+    img{
+        display: block;
+        position: unset;
+        margin: auto;
+
+    }
+    
+    
+}
